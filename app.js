@@ -21,6 +21,7 @@ function agregarAmigo(){
     //Inserta el nombre escrito en la unordered list
     document.getElementById("listaAmigos").insertAdjacentHTML("beforeend",`<li>${nombreDeAmigo}</li>`);
 
+    //Limpia la caja de texto
     limpiarCaja();
     
 }
